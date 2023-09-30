@@ -1,0 +1,56 @@
+/*selector{
+    estilo
+}*/
+/*tipos de selectores
+1-Etiqueta por ejemplo h1, p
+2-Clase + nombre, son parte de una etiqueta
+3-Id #+nombre id que tiene una etiqueta*/
+
+body{
+background-color: palegoldenrod;
+}
+.fondodeotrocolor{
+    background-color: lightgrey;
+}
+h2{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tituloprincipal{
+    background-color: rgb(250, 184, 250);
+    width: 400px;
+    height: 50px;
+    display: inline-block
+}
+button{
+    background-color: yellowgreen;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#botongris{
+    background-color: grey;
+}
+
+.flores{
+    width: 300px;
+}
+.texto2{
+    width: 25%;
+    height: 40 vh;
+}
+.bordeazul{
+    border-color: cadetblue;
+    border-width: 2px;
+    border-style: dotted;
+}
+#textounico{
+    background-image: url(./Imagenes/flo2.jpg);
+}
+ul{
+    background-color: chocolate;
+    width: 500px;
+}
+li{
+    background-color: red;
+    width: 50%;
+}
